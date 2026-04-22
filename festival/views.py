@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404
 from .models import Palco, Dia, Concerto
+from django.shortcuts import render
 
 
 def index_view(request):
