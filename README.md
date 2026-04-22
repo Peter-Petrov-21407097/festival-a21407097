@@ -22,6 +22,16 @@ Lembro-me de fazer isto tambem no meu portfolio.
 A Ideia e conseguir OU apanhar o objecto OU devolver um erro (no meu portfolio fiz erro 404, vou usar a mesma logica aqui, se faz favor)
 Assim, se nao houver ID, nao temos erro.
 
+Ficheiro urls.view:
+
+Linha 6:
+
+Falta um caminho. O que esta nao esta necessariamente mal, mas esta incompleto.
+Se nao tivermos isto, o path para ir buscar os dias nao esta registrado.
+path('dias/', views.dias_view, name='dias'),
+
+
+
 
     
 
