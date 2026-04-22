@@ -39,6 +39,17 @@ ficheiro views.py
 nao temos uma funcao que ligue aos views, logo vamos criar uma nova funcao que permita aceder e ver todos os palcos.
 
 
+concerto.html
+
+navegacao, pois como esta, nao vai navegar entre outras urls.
+Quero ir a palcos, nao o consigo fazer.
+Quero ir a index, nao consigo.
+concerto tem associado 2 atributos
+Entao, temos que os ir buscar (concerto.dia, concerto.palco)
+
+
+
+
 
 
 
