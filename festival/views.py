@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from .models import Palco
+from django.shortcuts import get_object_or_404
+from .models import Palco, Dia, Concerto
 
 
 def index_view(request):
@@ -16,8 +16,13 @@ def dias_view(request):
 
 
 def concerto_view(request, id):
-    concerto = 
-
+    concerto = get_object_or_404(Concerto, id=id)
     context = {'concerto': concerto}
-
     return render(request, 'festival/concerto.html', context)
+
+def palcos_view(request):
+    palcos = Palco.objects.all()
+    context = {'palcos': palcos}
+    return render(request, 'festival/palcos.html', context)
+    palco = get_object_or_404(palco, id=id)
+    context = {}    
