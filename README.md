@@ -30,6 +30,9 @@ Falta um caminho. O que esta nao esta necessariamente mal, mas esta incompleto.
 Se nao tivermos isto, o path para ir buscar os dias nao esta registrado.
 path('dias/', views.dias_view, name='dias'),
 
+Tambem precisamos neste ficheiro (linha 5) de uma forma de aceder a view do palco.
+
+
 
 
 
