@@ -32,6 +32,12 @@ path('dias/', views.dias_view, name='dias'),
 
 Tambem precisamos neste ficheiro (linha 5) de uma forma de aceder a view do palco.
 
+ficheiro concerto.html
+
+ficheiro views.py
+
+nao temos uma funcao que ligue aos views, logo vamos criar uma nova funcao que permita aceder e ver todos os palcos.
+
 
 
 
