@@ -42,6 +42,8 @@ nao temos uma funcao que ligue aos views, logo vamos criar uma nova funcao que p
 
 
 
+
+
     
 
     L
