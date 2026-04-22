@@ -47,6 +47,12 @@ Quero ir a index, nao consigo.
 concerto tem associado 2 atributos
 Entao, temos que os ir buscar (concerto.dia, concerto.palco)
 
+FICHEIRO INDEX.HTML
+
+tive que aplicar os ... tag? tag, acho eu, correcto. Quanto eu digo tags, estou-me a referir a <h1>, <p>
+Havia texto, mas nao havia tags na estrutura do ficheiro.
+
+
 
 
 
